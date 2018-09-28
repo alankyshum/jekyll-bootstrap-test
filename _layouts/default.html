@@ -3,9 +3,10 @@
 		<link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
 	</head>
 	<body>
-		{{ content }}
+		{% include_relative _components/navbar.html %}
 		<script src="{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"></script>
 		<script src="{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"></script>
 		<script src="{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+		{% include_relative _components/footer.html %}
 	</body>
 </html>
