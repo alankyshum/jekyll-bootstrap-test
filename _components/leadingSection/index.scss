@@ -1,0 +1,13 @@
+.leadingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+
+  &__header {
+    font-weight: bold;
+  }
+  &__caption {
+    color: #36347b;
+  }
+}
